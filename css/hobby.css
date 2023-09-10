@@ -1,0 +1,51 @@
+@import url("style.css");
+
+figure {
+    display: block;
+    width: 30%;
+    height: 30%;
+    background-color: #ffdfb5;
+    padding-bottom: .75%;
+    float: left;
+    margin-right: 1%;
+}
+
+img {
+    margin: 2.5% 2.5% 0 2.5%;
+    border: 2px solid #e69122;
+    width: calc(95% - 4px);
+    height: calc(97.5% - 4px);
+}
+
+figcaption {
+    text-align: center;  
+}
+
+div.pictures::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+p.theme {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #ffdfb5;
+}
+
+div.text {
+    margin-left: 2%;
+    color: #ffdfb5;
+}
+
+div.text  span{
+    font-size: 30px;
+    color: #ff7300;
+}
+
+ul {
+    margin-top: .5%;
+    margin-left: 1.5%;
+    /*border: 1px solid black;*/
+    width: 17%;
+}

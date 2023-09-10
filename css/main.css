@@ -1,0 +1,31 @@
+@import url("style.css");
+
+h1 {
+    margin-bottom: 0px;
+}
+
+main {
+    overflow: hidden;
+    /*border: 1px solid black;*/
+}
+
+main img {
+    width: 20%;
+    height: 20%;
+    border: 2px solid #cc811f;
+    margin-left: 5%;
+    margin-right: 2%;
+    display: block;
+    float: left;
+}
+
+main div > span {
+    font-weight: bold;
+}
+
+ul {
+    margin-top: .5%;
+    padding-left: calc(28.5% + 4px);
+    /*border: 1px solid black;*/
+    width: 17%;
+}

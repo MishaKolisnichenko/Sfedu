@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #e69122;
+    text-shadow: 1px 1px 1px black;
+    background-image: url("../images/forest.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+    font-size: 24px;
+    padding: 10px;
+    /*border: 1px solid black;*/
+}
+
+a.reference {
+    transition: .35s;
+}
+
+a.reference:link {
+    color: #26b857;
+}
+
+a.reference:visited {
+    color: #1e9c48;
+}
+
+a.reference:hover {
+    color: #00ff22;
+}
+
+a.reference:active {
+    color: #88ff00;
+}

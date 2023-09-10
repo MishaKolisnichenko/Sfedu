@@ -1,0 +1,33 @@
+@import url("style.css");
+
+div.pictures {
+    width: 80%;
+    /* 
+    text-align: center;
+    border: 1px solid black; */
+    margin: 0 10% 0 10%;
+}
+
+div.pictures img {
+    width: 50%;
+    height: 50%;
+    float: left;
+    border: 2px solid #cc811f;
+    margin-right: 2%;
+}
+
+div.pictures p {
+    color: #ffdfb5;
+    margin-bottom: 0px;
+}
+
+div.pictures span {
+    font-size: 30px;
+    color: #ff7300;
+}
+
+ul {
+    width: 17%;
+    padding-left: calc(54% + 4px);
+    margin-top: 0px;
+}
