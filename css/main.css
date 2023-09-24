@@ -30,8 +30,8 @@ main img {
 }
 
 main div.biography {
-    -webkit-filter: blur(1px);
-    filter: blur(1px);
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
 }
 
 main div.biography:hover {
