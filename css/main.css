@@ -4,6 +4,16 @@ h1 {
     margin-bottom: 0px;
 }
 
+header {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 1px 0.75px 1px #fff098,
+        3.25px 1px 1px #e69122,
+        3.5px 2px 1px black,
+        1px 6px 6px rgba(16,16,16,0.4),
+        1px 8px 10px rgba(16,16,16,0.4);
+}
+
 main {
     overflow: hidden;
     /*border: 1px solid black;*/
@@ -19,6 +29,20 @@ main img {
     float: left;
 }
 
+main div.biography {
+    filter: blur(1px);
+}
+
+main div.biography:hover {
+    transition: 0.35s;
+    filter: none;
+}
+
+main img:hover {
+    transition: 0.35s;
+    border: 2.5px solid #ff5e00;
+}
+
 main div > span {
     font-weight: bold;
 }
@@ -26,6 +50,7 @@ main div > span {
 ul {
     margin-top: .5%;
     padding-left: calc(28.5% + 4px);
+    text-shadow: 1px 2px 0px black;
     /*border: 1px solid black;*/
     width: 17%;
 }
