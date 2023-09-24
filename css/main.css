@@ -30,11 +30,13 @@ main img {
 }
 
 main div.biography {
+    -webkit-filter: blur(1px);
     filter: blur(1px);
 }
 
 main div.biography:hover {
     transition: 0.35s;
+    -webkit-filter: none;
     filter: none;
 }
 
