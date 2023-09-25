@@ -5,6 +5,7 @@ h1 {
 }
 
 header {
+    width: calc(100% - 400px);
     text-transform: uppercase;
     letter-spacing: 3px;
     text-shadow: 1px 0.75px 1px #fff098,
@@ -12,6 +13,7 @@ header {
         3.5px 2px 1px black,
         1px 6px 6px rgba(16,16,16,0.4),
         1px 8px 10px rgba(16,16,16,0.4);
+    transform: perspective(400px) rotateX(50deg);
 }
 
 main {
@@ -30,8 +32,8 @@ main img {
 }
 
 main div.biography {
-    -webkit-filter: blur(1px);
-    filter: blur(1px);
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
 }
 
 main div.biography:hover {
@@ -42,7 +44,7 @@ main div.biography:hover {
 
 main img:hover {
     transition: 0.35s;
-    border: 2.5px solid #ff5e00;
+    border: 2.5px solid green;
 }
 
 main div > span {
